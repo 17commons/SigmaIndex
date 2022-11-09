@@ -64,5 +64,5 @@ index.set_index("date", inplace=True)
 index['marketcap']=index['btc_market_caps']+index['eth_market_caps']+index['usdt_market_caps']+index['usdc_market_caps']+index['busd_market_caps']+index['dai_market_caps']
 
 # 绘图
-index['marketcap'].plot
+index.plot
 plt.show()
